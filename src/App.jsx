@@ -5,6 +5,8 @@ import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx' 
 import Cocktails from './components/cocktails.jsx'
 import About from './components/About.jsx'
+import Art from './components/Art.jsx'
+import Menu from './components/Menu.jsx'
 
 gsap.registerPlugin(ScrollTrigger,SplitText)//these plugins aren't auto active u need to register them  makes it globally accessible across project
 
@@ -15,6 +17,8 @@ const App = () => {
       <Hero/>
     <Cocktails/>
      <About/>
+     <Art/>
+     <Menu/>
     </main>
   )
 }
